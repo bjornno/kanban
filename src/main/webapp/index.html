@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/kanban.js"></script>
+</head>
+<body style="font-size:90%;">
+
+
+<div id="info">Info from server</div> 
+
+<table width="600">
+<td width="250" valign="top">
+<pre> 
+    <div id="info1">Waiting for update</div> 
+</pre> 
+<ul id="test-list1" width="200"> 
+  <li id="L_1"> 
+    <div  id="task" class="handle" >
+    <p>Some text that you want to display to the user.</p>
+	<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">edit</a>
+    </div>
+  </li> 
+  <li id="L_2"> 
+<div  id="task" class="handle" >
+    <p>Some text that you want to display to the user.</p>
+	<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">edit</a>
+    </div>
+     </li> 
+  <li id="L_3"> 
+<div  id="task" class="handle" >
+    <p>Some text that you want to display to the user.</p>
+	<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">edit</a>
+    </div>
+     </li> 
+  <li id="L_4"> 
+<div  id="task" class="handle" >
+    <p>Some text that you want to display to the user.</p>
+	<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">edit</a>
+    </div>
+     </li> 
+</ul> 
+<form action="/" method="post" name="sortables"> 
+  <input type="hidden" name="test-log" id="test-log" /> 
+</form>
+</td>
+<td width="250" valign="top">
+<pre> 
+    <div id="info2">Waiting for update</div> 
+</pre> 
+<ul id="test-list2" width="200"> 
+  <li id="L_1"> 
+    <div  id="task" class="handle" >
+    <p>Some text that you want to display to the user.</p>
+	<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">edit</a>
+    </div>
+  </li> 
+  <li id="L_2"> 
+<div  id="task" class="handle" >
+    <p>Some text that you want to display to the user.</p>
+	<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">edit</a>
+    </div>
+     </li> 
+</ul> 
+<form action="/" method="post" name="sortables"> 
+  <input type="hidden" name="test-log" id="test-log" /> 
+</form>
+</td>
+<td width="250" valign="top">
+<pre> 
+    <div id="info3">Waiting for update</div> 
+</pre> 
+<ul id="test-list3" width="200"> 
+  <li id="L_1"> 
+    <div  id="task" class="handle" >
+    <p>Some text that you want to display to the user.</p>
+	<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">edit</a>
+    </div>
+  </li> 
+  
+</ul> 
+<form action="/" method="post" name="sortables"> 
+  <input type="hidden" name="test-log" id="test-log" /> 
+</form>
+</td>
+</table>
+
+
+<div id="dialog" title="Example dialog" style="background: yellow;">
+	<p>Some text that you want to display to the user.</p>
+	
+	<div type="text" id="datepicker"></div>
+</div>
+<a href="index.html#" onclick="$('#dialog').dialog('open'); return false">Åpne dialog</a>
+
+<br/>
+<br/>
+
+<input id="autocomplete" />
+
+</body>
+</html>

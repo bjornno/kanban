@@ -1,0 +1,9 @@
+div.handle {
+	border: 2px dotted blue; 
+	background: yellow; 
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	width: 150px; 
+	height: 100px; 
+	overflow: auto;
+}
